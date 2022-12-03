@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Blackforest Cake",
+        "description": "Our Black Forest cake consists of several layers of chocolate sponge cake.",
+        "price": 18.98,
+        "imgUrl": "/imgs/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Donuts",
+        "description": "Try out our new collection of snowberry and fireberry donuts.",
+        "price": 11.99,
+        "imgUrl": "/imgs/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Cheesecake",
+        "description": "Our cheesecake base are made from crushed cookies, graham crackers and pastry.",
+        "price": 12.05,
+        "imgUrl": "/imgs/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Brownies",
+        "description": "Get a load of our brownies baked straight from heaven.",
+        "price": 10.99,
+        "imgUrl": "/imgs/4.jpg"
+    }
+]

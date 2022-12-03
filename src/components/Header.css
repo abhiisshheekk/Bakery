@@ -1,0 +1,102 @@
+.header {
+    color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header>div {
+    margin: 10px;
+}
+
+.punkLogo {
+    max-width: 200px;
+}
+
+.searchBar {
+    background-color: #d9d9e8;
+    flex: 1;
+    height: 50px;
+    max-width: 500px;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.searchLogoContainer {
+    margin: 10px;
+}
+
+.searchInput {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: black;
+    width: 100%;
+    font-size: 16px;
+}
+
+.headerItems {
+    display: flex;
+    color: black;
+}
+
+.headerItems>p {
+    margin: 10px;
+}
+
+.headerActions {
+    display: flex;
+    align-items: center;
+}
+
+.headerActions>div {
+    margin: 10px;
+}
+
+.themeSwitchContainer {
+    display: flex;
+    background-color: #1c1c1e;
+    border-radius: 50px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.themeSwitch {
+    height: 25px;
+}
+
+.loginButton {
+    background: linear-gradient(to right, #59f9b7, #66feea);
+    padding: 15px 40px;
+    border-radius: 50px;
+    display: flex;
+    color: black;
+    cursor: pointer;
+}
+
+.cart-count {
+    color: white;
+    width: 1.2rem;
+    height: 1.2em;
+    position: absolute;
+    transform: translate(25%, 25%);
+}
+
+@media (max-width: 770px) {
+    .header {
+        height: 50%;
+    }
+    .searchBar {
+        display: none;
+    }
+    .punkLogo {
+        width: 100px;
+    }
+    .loginButton {
+        padding: 5px 15px;
+    }
+}
